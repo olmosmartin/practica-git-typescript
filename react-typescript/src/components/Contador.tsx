@@ -1,10 +1,6 @@
 import React, { ReactElement, useState } from 'react';
 
-interface Props {
-    
-}
-
-export default function Contador({}: Props): ReactElement {
+export default function Contador(): ReactElement {
 
     const [contador, setContador] = useState(0);
 

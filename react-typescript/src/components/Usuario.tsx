@@ -1,9 +1,9 @@
 import React, { ReactElement } from 'react'
 
-export default function Inicio(): ReactElement {
+export default function Usuario(): ReactElement {
     return (
         <div>
-            Inicio
+            usuario
         </div>
     )
 }
