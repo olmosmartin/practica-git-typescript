@@ -1,12 +1,20 @@
 import React from 'react';
 import './App.css';
 import Contador from './components/Contador';
+import Inicio from './views/Inicio';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
-      inicio
-      <Contador/>
+      <BrowserRouter>
+        nav
+        <Switch>
+          <Route exact path="/" component={Inicio} />
+          <Route exact path="/contador" component={Contador} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
