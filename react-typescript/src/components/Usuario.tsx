@@ -1,18 +1,18 @@
 import React, { ReactElement, useState } from 'react'
 
-interface Usuario {
+interface IUsuario {
     id:string;
     nombre:string;
 }
 
-const usuarioInicial: Usuario = {
+const usuarioInicial: IUsuario = {
     id:'0',
     nombre:"default"
 };
 
 export default function Usuario(): ReactElement {
 
-    const [usuario, setUsuario] = useState<Usuario>(usuarioInicial);
+    const [usuario, setUsuario] = useState<IUsuario>(usuarioInicial);
 
     const login = () => {
         setUsuario({
