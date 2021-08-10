@@ -6,7 +6,7 @@ export default function TimerPadre(): ReactElement {
     const [milisegundos, setMilisegundos] = useState(1000);
 
     return (
-        <div>
+        <div className="container">
             <span> milisegundos { milisegundos } </span>
             <br></br>
             <button 

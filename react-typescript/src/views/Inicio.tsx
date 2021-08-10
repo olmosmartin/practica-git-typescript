@@ -1,10 +1,12 @@
-import React, { ReactElement } from 'react'
-import TimerPadre from '../components/TimerPadre'
+import React, { ReactElement } from 'react';
+import TimerPadre from '../components/TimerPadre';
+import { ContadorRedu } from '../components/ContadorRedu';
 
 export default function Inicio(): ReactElement {
     return (
-        <div>
+        <div className="container">
             <TimerPadre/>
+            <ContadorRedu/>
         </div>
     )
 }
