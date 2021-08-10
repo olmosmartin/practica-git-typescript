@@ -38,7 +38,6 @@ const contadorReducer = ( state: typeof estadoInicial, accion:accionType ) => {
             return state;
     }
 
-    return state;
 }
 
 export const ContadorRedu = () => {

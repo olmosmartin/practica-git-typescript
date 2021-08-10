@@ -19,6 +19,9 @@ export default function Navbar(): ReactElement {
               <li className="nav-item">
                 <a className="nav-link" href="/usuario">Usuario</a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/form">Form</a>
+              </li>
             </ul>
           </div>
         </div>
